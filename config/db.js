@@ -1,8 +1,7 @@
-// include mysql module
-var mysql = require('mysql');
+
 
 module.exports = function () {
-    var con = mysql.createConnection({
+    var con = require('mysql').createConnection({
         host: "localhost",    // ip address of server running mysql
         user: "satodb",    // user name to your mysql database
         password: "teamoruben",    // corresponding password

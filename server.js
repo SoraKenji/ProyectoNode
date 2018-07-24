@@ -5,12 +5,7 @@ const app            = express();
 
 const port = 1102;
 
-///
-
-
- 
-// create a connection variable with the details required
-con = require('./config/db')
+var con = require('./config/db')
  
 app.use(bodyParser.urlencoded({ extended: true }));
 // connect to the database.

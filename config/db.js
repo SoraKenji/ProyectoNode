@@ -1,3 +1,6 @@
+// include mysql module
+var mysql = require('mysql');
+
 module.exports = function () {
     var con = mysql.createConnection({
         host: "localhost",    // ip address of server running mysql

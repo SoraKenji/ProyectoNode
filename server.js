@@ -7,8 +7,7 @@ const port = 1102;
 
 ///
 
-// include mysql module
-var mysql = require('mysql');
+
  
 // create a connection variable with the details required
 con = require('./config/db')

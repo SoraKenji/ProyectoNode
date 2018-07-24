@@ -5,6 +5,8 @@ const app            = express();
 
 const port = 1102;
 
+app.use(bodyParser.urlencoded({ extended: true }));
+
 require('./app/routes')(app,{});
 
 app.listen(port, ()=> {
